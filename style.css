@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: darkgrey;
+}
+.conteiner {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+.nav {
+    width: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 6em;
+    border-radius: 3em;
+    border: 3px solid rgb(61, 61, 61);
+    padding: 0.5em 2em 1em 2em;
+    justify-content: space-around;
+}
+.list {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.list a, li {
+    text-decoration: none;
+    list-style: none;
+}
+.list .link {
+    font-size: 1.5em;
+    color: white;
+}
+.list a:visited {
+    color: white;
+}
+.list__item .icon {
+    display: block;
+    font-size: 1.5em;
+}
+.icon:hover {
+    transition: 1s;
+    
+    transform: translateY(-50px);
+}
+.icon {
+    color: white;
+
+}
+
+
